@@ -25,7 +25,8 @@ function ComingSoon() {
         sx={{ color: "white", textAlign: "center", mb: 2 }}
       >
         Revolving Store: Where disruption meets retail. Revolutionizing
-        shopping, one city at a time. Starting in NYC 🗽🌎 #RetailRevolution
+        shopping, one city at a time.
+        <br /> Starting in NYC 🗽🌎 #RetailRevolution
       </Typography>
       <Stack spacing={1}>
         <Stack spacing={1} direction="row" sx={{ alignItems: "center" }}>

@@ -19,10 +19,10 @@ function ComingSoon() {
         justifyContent: "center",
       }}
     >
-      <Logo sx={{ mb: 4 }} />
+      <Logo sx={{ mb: 6 }} />
       <Typography
         variant="body1"
-        sx={{ color: "white", textAlign: "center", mb: 2 }}
+        sx={{ color: "white", textAlign: "center", mb: 4 }}
       >
         Where disruption meets retail.
         <br /> Revolutionizing shopping, one city at a time.

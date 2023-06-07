@@ -9,7 +9,7 @@ function SEO({ title }) {
       <meta name="robots" content="noindex, follow" />
       <meta
         name="description"
-        content="all black background logo, Revolving Store: Where disruption meets retail. Revolutionizing shopping, one city at a time. Starting in NYC 🗽🌎"
+        content="Where disruption meets retail. Revolutionizing shopping, one city at a time. Starting in NYC 🗽🌎"
       />
       <meta
         name="viewport"

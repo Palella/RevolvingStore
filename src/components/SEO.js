@@ -9,7 +9,7 @@ function SEO({ title }) {
       <meta name="robots" content="noindex, follow" />
       <meta
         name="description"
-        content="Where disruption meets retail. Revolutionizing shopping, one city at a time. Starting in NYC 🗽🌎"
+        content="Where disruption Meets Retail. Revolutionizing shopping, one city at a time. Starting in NYC 🗽🌎"
       />
       <meta
         name="viewport"

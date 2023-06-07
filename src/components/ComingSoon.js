@@ -12,11 +12,11 @@ function ComingSoon() {
     <Container
       maxWidth="xs"
       sx={{
-        minHeight: "60vh",
-        mt: "20vh",
+        minHeight: "80vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        justifyContent: "center",
       }}
     >
       <Logo sx={{ mb: 4 }} />
@@ -36,7 +36,7 @@ function ComingSoon() {
             variant="body1"
             sx={{ color: "white", textAlign: "center" }}
           >
-            Brand? nyc@revolving.store
+            Brand? <a href="mailto:nyc@revolving.store">nyc@revolving.store</a>
           </Typography>
         </Stack>
         <Stack spacing={1} direction="row" sx={{ alignItems: "center" }}>
@@ -45,7 +45,10 @@ function ComingSoon() {
             variant="body1"
             sx={{ color: "white", textAlign: "center" }}
           >
-            Landlord? landlord@revolving.store
+            Landlord?{" "}
+            <a href="mailto:landlord@revolving.store">
+              andlord@revolving.store
+            </a>
           </Typography>
         </Stack>
         <Stack spacing={1} direction="row" sx={{ alignItems: "center" }}>
@@ -54,7 +57,7 @@ function ComingSoon() {
             variant="body1"
             sx={{ color: "white", textAlign: "center" }}
           >
-            Press? ask@revolving.store
+            Press? <a href="mailto:ask@revolving.store">ask@revolving.store</a>
           </Typography>
         </Stack>
       </Stack>

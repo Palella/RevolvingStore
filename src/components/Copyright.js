@@ -7,7 +7,8 @@ function Copyright(props) {
     <Typography variant="body2" color="white" align="center" {...props}>
       {"© "}
       {new Date().getFullYear()}
-      {"  "}Revolving Store Inc. 293 Church St New York, NY 10013
+      {"  "}Revolving Store Inc.
+      <br /> 293 Church St New York, NY 10013
     </Typography>
   );
 }

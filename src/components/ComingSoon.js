@@ -26,7 +26,7 @@ function ComingSoon() {
         variant="body1"
         sx={{ color: "white", textAlign: "center", mb: 4 }}
       >
-        Where disruption meets retail.
+        Where disruption Meets Retail.
         <br /> Revolutionizing shopping, one city at a time.
         <br /> Starting in NYC 🗽🌎 <br />
         #RetailRevolution

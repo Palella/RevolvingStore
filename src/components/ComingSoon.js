@@ -1,9 +1,10 @@
 // mui
-import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 // component
 import Logo from "./Logo";
+import BrandIcon from "./BrandIcon";
 // -----------------------------------------------------
 
 function ComingSoon() {
@@ -26,26 +27,35 @@ function ComingSoon() {
         Revolving Store: Where disruption meets retail. Revolutionizing
         shopping, one city at a time. Starting in NYC 🗽🌎 #RetailRevolution
       </Typography>
-      <Box>
-        <Typography
-          variant="body1"
-          sx={{ color: "white", textAlign: "center" }}
-        >
-          Brand? nyc@revolving.store
-        </Typography>
-        <Typography
-          variant="body1"
-          sx={{ color: "white", textAlign: "center" }}
-        >
-          Landlord? landlord@revolving.store
-        </Typography>
-        <Typography
-          variant="body1"
-          sx={{ color: "white", textAlign: "center" }}
-        >
-          Press? ask@revolving.store
-        </Typography>
-      </Box>
+      <Stack spacing={1}>
+        <Stack spacing={1} direction="row" sx={{ alignItems: "center" }}>
+          <BrandIcon />
+          <Typography
+            variant="body1"
+            sx={{ color: "white", textAlign: "center" }}
+          >
+            Brand? nyc@revolving.store
+          </Typography>
+        </Stack>
+        <Stack spacing={1} direction="row" sx={{ alignItems: "center" }}>
+          <BrandIcon />
+          <Typography
+            variant="body1"
+            sx={{ color: "white", textAlign: "center" }}
+          >
+            Landlord? landlord@revolving.store
+          </Typography>
+        </Stack>
+        <Stack spacing={1} direction="row" sx={{ alignItems: "center" }}>
+          <BrandIcon />
+          <Typography
+            variant="body1"
+            sx={{ color: "white", textAlign: "center" }}
+          >
+            Press? ask@revolving.store
+          </Typography>
+        </Stack>
+      </Stack>
     </Container>
   );
 }

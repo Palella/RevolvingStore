@@ -1,7 +1,9 @@
 // mui
+import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import TwitterIcon from "@mui/icons-material/Twitter";
 // component
 import Logo from "./Logo";
 import BrandIcon from "./BrandIcon";
@@ -12,7 +14,7 @@ function ComingSoon() {
     <Container
       maxWidth="xs"
       sx={{
-        minHeight: "80vh",
+        minHeight: "90vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -61,6 +63,22 @@ function ComingSoon() {
           </Typography>
         </Stack>
       </Stack>
+      <Box
+        sx={{
+          mt: 10,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <a
+          href="http://twitter.com/revolvingstore"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <TwitterIcon sx={{ color: "white", fontSize: 40 }} />
+        </a>
+      </Box>
     </Container>
   );
 }

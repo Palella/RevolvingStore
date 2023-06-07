@@ -47,7 +47,7 @@ function ComingSoon() {
           >
             Landlord?{" "}
             <a href="mailto:landlord@revolving.store">
-              andlord@revolving.store
+              landlord@revolving.store
             </a>
           </Typography>
         </Stack>
